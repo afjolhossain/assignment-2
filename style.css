@@ -1,0 +1,139 @@
+/* fonts common  style*/
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #000000; 
+}
+
+/* start of first part of foothball banner */    
+
+.container{
+    display: flex;
+    width: 1440px;
+    height: 677px;
+    background-color: #2D25A0; 
+    margin-left: 30px;  
+}
+.first-half-full{
+    width: 485px;
+    height: 230px;
+    margin-left: 156px;
+    margin-top: 160px; 
+}
+.first-half{
+    width: 275px;
+    height: 154px;
+    justify-content: left;
+    font-size: 24px;
+   color:  #FFFFFF;
+    
+}
+.second-half img{  
+   width: 556.01px;
+   height: 438px;
+   margin-top: 153px;
+}
+.buttom  {
+    text-decoration: none;
+     border: 3px solid rgb(197, 216, 197);
+     background: #E02C6D;
+     color:#1f1010 ;
+     border-radius: 10px;
+     transform:scale(2s) ;
+     transition: transfoms, ease-in-out ;
+}
+
+/*-------------------------
+ first part finished 
+ ---------------------*/
+
+/*--------------------- 
+second section start 
+-----------------------*/
+.section-2{
+    width: 1440px;
+    height: auto;
+    background:#FFFFFF;
+    margin-left: 30px;
+    align-items: center;      
+}
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 20px; 
+  
+}
+.player{
+    width: 300px;
+    height: 450px;
+    position: relative;
+     margin-left: 20px;  
+    padding-bottom: 25px; 
+    border: 20px solid rgb(231, 219, 219);
+        
+}
+.player-img img{
+    width: 300px;
+    height: 300px; 
+}
+.details{
+    width: 300px;
+    height: 300px; 
+    position: absolute;
+    font:  #010518;;
+}
+/* --------------------
+second part finished
+----------------------- */
+
+ /* last part start */
+ .section-3{
+    background: #FFFFFF;
+    background-position: center;
+    margin-left: 30px;
+    margin-right: 33px;
+ }
+ .last-part-all{
+   display: flex;
+   justify-content: center;
+ }
+ .last-part-left{
+    width: 400px;
+    height: 400px;
+    margin-right: 20px;
+    margin-top: 15px;
+    font-weight: 700px;
+ }
+ h1{
+     font-size: 40px;
+ }
+
+ .last-part-right img{
+    width: 400px;
+    height: 400px;
+    margin: 20px;
+ }
+        /*------------- 
+    socila media section 
+        ------------------*/
+ .section{
+    background: #FFFFFF;
+    margin-left: 30px;
+    margin-right: 33px; 
+ }
+ .social-media{
+    margin-left: 509px;   
+ }   
+
+.logo img{
+    height: 100px;
+    width: 400px;
+}
+.socilal{
+    margin-left: 136px;
+}
+   /*----------------
+    finished
+   ------------------ */
+
+/* media quary start */
